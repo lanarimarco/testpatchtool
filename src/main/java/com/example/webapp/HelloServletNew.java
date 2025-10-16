@@ -10,7 +10,7 @@ import java.io.PrintWriter;
 /**
  * A simple Hello World servlet
  */
-public class HelloServlet extends HttpServlet {
+public class HelloServletNew extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
@@ -25,7 +25,7 @@ public class HelloServlet extends HttpServlet {
             out.println("<title>Hello Servlet</title>");
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Hello from Servlet Changed!</h1>");
+            out.println("<h1>Hello from Servlet!</h1>");
             out.println("<p>Request URI: " + request.getRequestURI() + "</p>");
             out.println("<p>Servlet Path: " + request.getServletPath() + "</p>");
             out.println("<p><a href='index.jsp'>Back to home</a></p>");
