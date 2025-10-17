@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Maven Web Application Changed</title>
+    <title>Maven Web Application</title>
     <style>
         body {
             font-family: Arial, sans-serif;
